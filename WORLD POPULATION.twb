@@ -843,6 +843,32 @@
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <style>
         <style-rule element='mark'>
+          <encoding attr='color' field='[Country Name (group)]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Africa&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Oceania &quot;</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>&quot;Other&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Europa&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Asia&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>%all%</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Algeria, Angola, Benin and 52 more&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Americas&quot;</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[none:Country Name:nk]' type='palette'>
             <map to='#499894'>
               <bucket>&quot;Armenia&quot;</bucket>
@@ -1488,32 +1514,6 @@
             </map>
             <map to='#ffbe7d'>
               <bucket>&quot;United Kingdom&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[Country Name (group)]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;Africa&quot;</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;Oceania &quot;</bucket>
-            </map>
-            <map to='#a2a2a2'>
-              <bucket>&quot;Other&quot;</bucket>
-            </map>
-            <map to='#b6992d'>
-              <bucket>&quot;Europa&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;Asia&quot;</bucket>
-            </map>
-            <map to='#edc948'>
-              <bucket>%all%</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;Algeria, Angola, Benin and 52 more&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;Americas&quot;</bucket>
             </map>
           </encoding>
         </style-rule>
@@ -4916,10 +4916,10 @@
               </zone>
             </zone>
             <zone h='87053' id='49' type-v2='layout-basic' w='99156' x='422' y='12054'>
-              <zone h='22367' id='25' is-fixed='true' type-v2='layout-basic' w='99156' x='422' y='12054'>
-                <zone h='22367' id='11' param='horz' type-v2='layout-flow' w='99156' x='422' y='12054'>
-                  <zone h='22367' id='9' type-v2='layout-basic' w='99156' x='422' y='12054'>
-                    <zone h='22367' id='18' name='ASIA ' w='31970' x='17964' y='12054'>
+              <zone h='22364' id='25' is-fixed='true' type-v2='layout-basic' w='99156' x='422' y='12054'>
+                <zone h='22364' id='11' param='horz' type-v2='layout-flow' w='99156' x='422' y='12054'>
+                  <zone h='22364' id='9' type-v2='layout-basic' w='99156' x='422' y='12054'>
+                    <zone h='22364' id='18' name='ASIA ' w='31970' x='17962' y='12054'>
                       <zone-style>
                         <format attr='border-color' value='#000000' />
                         <format attr='border-style' value='none' />
@@ -4927,7 +4927,7 @@
                         <format attr='margin' value='4' />
                       </zone-style>
                     </zone>
-                    <zone forceUpdate='true' h='22367' id='30' type-v2='text' w='17542' x='422' y='12054'>
+                    <zone forceUpdate='true' h='22364' id='30' type-v2='text' w='17540' x='422' y='12054'>
                       <formatted-text>
                         <run fontalignment='1' fontcolor='#ff557f' fontsize='10'> ASIA </run>
                         <run fontalignment='1'>Æ&#10;</run>
@@ -4940,7 +4940,7 @@
                         <format attr='margin' value='4' />
                       </zone-style>
                     </zone>
-                    <zone h='22367' id='19' name='AFRICA ' w='21244' x='49934' y='12054'>
+                    <zone h='22364' id='19' name='AFRICA ' w='21245' x='49932' y='12054'>
                       <zone-style>
                         <format attr='border-color' value='#000000' />
                         <format attr='border-style' value='none' />
@@ -4948,7 +4948,7 @@
                         <format attr='margin' value='4' />
                       </zone-style>
                     </zone>
-                    <zone h='22367' id='32' type-v2='text' w='28400' x='71178' y='12054'>
+                    <zone h='22364' id='32' type-v2='text' w='28401' x='71177' y='12054'>
                       <formatted-text>
                         <run fontalignment='1' fontcolor='#0055ff' fontsize='10'>AFRICA </run>
                         <run fontalignment='1'>Æ&#10;</run>
@@ -4964,7 +4964,7 @@
                   </zone>
                 </zone>
               </zone>
-              <zone h='36157' id='21' name='EUROPA' w='21762' x='42453' y='62950'>
+              <zone h='36161' id='21' name='EUROPA' w='21762' x='42452' y='62946'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -4972,7 +4972,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='36157' id='22' name='OCENIA ' w='21089' x='78489' y='62950'>
+              <zone h='36161' id='22' name='OCENIA ' w='21091' x='78487' y='62946'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -4980,7 +4980,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='28529' id='16' name='Kitalar Harita' w='30576' x='41578' y='34421'>
+              <zone h='28528' id='16' name='Kitalar Harita' w='30576' x='41577' y='34418'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -4988,7 +4988,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='36157' id='33' type-v2='text' w='13447' x='29006' y='62950'>
+              <zone h='36161' id='33' type-v2='text' w='13447' x='29005' y='62946'>
                 <formatted-text>
                   <run fontalignment='1' fontcolor='#aaaa00' fontsize='10'>EUROPA</run>
                   <run fontalignment='1'>Æ&#10;</run>
@@ -5001,7 +5001,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='36157' id='34' type-v2='text' w='14274' x='64215' y='62950'>
+              <zone h='36161' id='34' type-v2='text' w='14273' x='64214' y='62946'>
                 <formatted-text>
                   <run fontalignment='1' fontcolor='#00aaff' fontsize='10'>OCEANIA </run>
                   <run fontalignment='1'>Æ&#10;</run>
@@ -5014,7 +5014,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='36157' id='20' name='AMERICAS' w='16637' x='12369' y='62950'>
+              <zone h='36161' id='20' name='AMERICAS' w='16637' x='12368' y='62946'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -5022,7 +5022,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone forceUpdate='true' h='36157' id='31' type-v2='text' w='11947' x='422' y='62950'>
+              <zone forceUpdate='true' h='36161' id='31' type-v2='text' w='11946' x='422' y='62946'>
                 <formatted-text>
                   <run fontalignment='1' fontcolor='#dc6e00' fontsize='10'>                                                                                                                                    AMERICAS </run>
                   <run fontalignment='1'>Æ&#10;</run>
@@ -5035,7 +5035,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='28529' id='37' name='Sheet 5' w='27424' x='72154' y='34421'>
+              <zone h='28528' id='37' name='Sheet 5' w='27425' x='72153' y='34418'>
                 <layout-cache cell-count-w='6' minheight='288' non-cell-size-w='81' type-h='scalable' type-w='cell' />
                 <zone-style>
                   <format attr='border-color' value='#000000' />
@@ -5044,7 +5044,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='28529' id='43' name='Kitalar Cubuk grafik ' w='16169' x='422' y='34421'>
+              <zone h='28528' id='43' name='Kitalar Cubuk grafik ' w='16167' x='422' y='34418'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -5052,7 +5052,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='28529' id='57' name='Sheet 10' w='24987' x='16591' y='34421'>
+              <zone h='28528' id='57' name='Sheet 10' w='24988' x='16589' y='34418'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -5081,8 +5081,8 @@
           </layout-options>
           <size maxheight='2750' minheight='2750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='64' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98214' id='63' param='vert' type-v2='layout-flow' w='99156' x='422' y='893'>
+            <zone h='100000' id='66' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98214' id='65' param='vert' type-v2='layout-flow' w='99156' x='422' y='893'>
                 <zone h='11161' id='52' type-v2='title' w='82473' x='8869' y='893'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5110,7 +5110,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='22367' id='30' type-v2='text' w='17542' x='422' y='12054'>
+                <zone forceUpdate='true' h='22364' id='30' type-v2='text' w='17540' x='422' y='12054'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#ff557f' fontsize='10'> ASIA </run>
                     <run fontalignment='1'>Æ&#10;</run>
@@ -5124,7 +5124,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='171' h='22367' id='18' is-fixed='true' name='ASIA ' w='31970' x='17964' y='12054'>
+                <zone fixed-size='171' h='22364' id='18' is-fixed='true' name='ASIA ' w='31970' x='17962' y='12054'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5133,7 +5133,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='171' h='22367' id='19' is-fixed='true' name='AFRICA ' w='21244' x='49934' y='12054'>
+                <zone fixed-size='171' h='22364' id='19' is-fixed='true' name='AFRICA ' w='21245' x='49932' y='12054'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5142,7 +5142,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='22367' id='32' type-v2='text' w='28400' x='71178' y='12054'>
+                <zone h='22364' id='32' type-v2='text' w='28401' x='71177' y='12054'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#0055ff' fontsize='10'>AFRICA </run>
                     <run fontalignment='1'>Æ&#10;</run>
@@ -5156,7 +5156,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='221' h='28529' id='43' is-fixed='true' name='Kitalar Cubuk grafik ' w='16169' x='422' y='34421'>
+                <zone fixed-size='221' h='28528' id='43' is-fixed='true' name='Kitalar Cubuk grafik ' w='16167' x='422' y='34418'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5165,7 +5165,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='221' h='28529' id='57' is-fixed='true' name='Sheet 10' w='24987' x='16591' y='34421'>
+                <zone fixed-size='221' h='28528' id='57' is-fixed='true' name='Sheet 10' w='24988' x='16589' y='34418'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5174,7 +5174,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='221' h='28529' id='16' is-fixed='true' name='Kitalar Harita' w='30576' x='41578' y='34421'>
+                <zone fixed-size='221' h='28528' id='16' is-fixed='true' name='Kitalar Harita' w='30576' x='41577' y='34418'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5183,7 +5183,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='221' h='28529' id='37' is-fixed='true' name='Sheet 5' w='27424' x='72154' y='34421'>
+                <zone fixed-size='221' h='28528' id='37' is-fixed='true' name='Sheet 5' w='27425' x='72153' y='34418'>
                   <layout-cache cell-count-w='6' minheight='288' non-cell-size-w='81' type-h='scalable' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -5193,7 +5193,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='36157' id='31' type-v2='text' w='11947' x='422' y='62950'>
+                <zone forceUpdate='true' h='36161' id='31' type-v2='text' w='11946' x='422' y='62946'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#dc6e00' fontsize='10'>                                                                                                                                    AMERICAS </run>
                     <run fontalignment='1'>Æ&#10;</run>
@@ -5207,7 +5207,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='36157' id='20' is-fixed='true' name='AMERICAS' w='16637' x='12369' y='62950'>
+                <zone fixed-size='280' h='36161' id='20' is-fixed='true' name='AMERICAS' w='16637' x='12368' y='62946'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5216,7 +5216,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='36157' id='33' type-v2='text' w='13447' x='29006' y='62950'>
+                <zone h='36161' id='33' type-v2='text' w='13447' x='29005' y='62946'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#aaaa00' fontsize='10'>EUROPA</run>
                     <run fontalignment='1'>Æ&#10;</run>
@@ -5230,7 +5230,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='36157' id='21' is-fixed='true' name='EUROPA' w='21762' x='42453' y='62950'>
+                <zone fixed-size='280' h='36161' id='21' is-fixed='true' name='EUROPA' w='21762' x='42452' y='62946'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5239,7 +5239,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone h='36157' id='34' type-v2='text' w='14274' x='64215' y='62950'>
+                <zone h='36161' id='34' type-v2='text' w='14273' x='64214' y='62946'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#00aaff' fontsize='10'>OCEANIA </run>
                     <run fontalignment='1'>Æ&#10;</run>
@@ -5253,7 +5253,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='36157' id='22' is-fixed='true' name='OCENIA ' w='21089' x='78489' y='62950'>
+                <zone fixed-size='280' h='36161' id='22' is-fixed='true' name='OCENIA ' w='21091' x='78487' y='62946'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -5638,7 +5638,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='37' />
+      <active id='-1' />
       <simple-id uuid='{6832C52B-8002-4262-A0A5-C58F5D201960}' />
     </window>
     <window class='worksheet' name='Sheet 10'>
